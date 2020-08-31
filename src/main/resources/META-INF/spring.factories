@@ -1,0 +1,5 @@
+#注册自定义系统初始化器环境配置
+org.springframework.context.ApplicationContextInitializer=com.sb.sb2.initializer.FirstInitializer
+
+#自定义事件监听器实现
+org.springframework.context.ApplicationListener=com.sb.sb2.listener.FirstListener
