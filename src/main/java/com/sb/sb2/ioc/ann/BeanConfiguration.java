@@ -16,7 +16,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class BeanConfiguration {
 
-    @Bean(name = "dog")
+    @Bean(name = "myDog")
     public Animal getDog(){
         return new Dog();
     }

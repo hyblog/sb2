@@ -15,6 +15,7 @@ com/sb/sb2/service/DemoService.class
 com/sb/sb2/event/WeatherEvent.class
 com/sb/sb2/bean/DemoExample$Criteria.class
 com/sb/sb2/bean/OldResult.class
+com/sb/sb2/ioc/ann/MyCat.class
 com/sb/sb2/service/TestInitializerService.class
 com/sb/sb2/bean/DemoExample$Criterion.class
 com/sb/sb2/listener/SecondListener.class

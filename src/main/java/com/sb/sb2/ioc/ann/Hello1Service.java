@@ -3,6 +3,7 @@ package com.sb.sb2.ioc.ann;
 import com.sb.sb2.ioc.xml.Animal;
 import com.sb.sb2.ioc.xml.Student;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 /**
@@ -19,6 +20,7 @@ public class Hello1Service {
     private Student student;
 
     @Autowired
+    @Qualifier(value = "myCat") //多个相同的Bean名称用Qualifier注定
     private Animal animal;
 
     public Student getStudent() {
