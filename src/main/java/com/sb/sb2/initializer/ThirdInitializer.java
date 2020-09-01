@@ -37,6 +37,6 @@ public class ThirdInitializer implements ApplicationContextInitializer<Configura
         MapPropertySource mapPropertySource = new MapPropertySource("thirdInitialize", configMap);
         //添加自定义配置
         environment.getPropertySources().addLast(mapPropertySource);
-        log.info("自定以【系统初始化器】【thirdInitializer】启动 ...");
+        log.info("自定以【系统初始化器】【ThirdInitializer】启动 ...");
     }
 }

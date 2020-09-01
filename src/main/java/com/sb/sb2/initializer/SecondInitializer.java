@@ -34,6 +34,6 @@ public class SecondInitializer implements ApplicationContextInitializer<Configur
         MapPropertySource mapPropertySource = new MapPropertySource("secndInitializer", configMap);
         //添加自定义配置
         environment.getPropertySources().addLast(mapPropertySource);
-        log.info("自定以【系统初始化器】【secondInitializer】启动 ...");
+        log.info("自定以【系统初始化器】【SecondInitializer】启动 ...");
     }
 }

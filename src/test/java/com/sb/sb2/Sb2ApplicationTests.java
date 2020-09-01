@@ -4,6 +4,9 @@ import com.sb.sb2.bean.NewResultModel;
 import com.sb.sb2.bean.OldResult;
 import com.sb.sb2.bean.OldResultModel;
 import com.sb.sb2.event.WeatherRunListener;
+import com.sb.sb2.message.EventConstant;
+import com.sb.sb2.message.EventHandle;
+import com.sb.sb2.message.StatusChangedEvent;
 import com.sb.sb2.utils.ConvertResultModelUtils;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -26,6 +29,8 @@ public class Sb2ApplicationTests {
     @Autowired
     private WeatherRunListener weatherRunListener;
 
+    @Autowired
+    private EventHandle eventHandle;
 
     @Test
     public void contextLoads() {
@@ -55,5 +60,17 @@ public class Sb2ApplicationTests {
         oldResultModel.setType(ConvertResultModelUtils.FAST_JSON);
         NewResultModel newResultModel = ConvertResultModelUtils.convert(oldResultModel);
         System.out.println(newResultModel);
+    }
+
+    /**
+     * 测试消息事件
+     */
+    @Test
+    public void testMessageExecturEvent() {
+        StatusChangedEvent statusChangedEvent = new StatusChangedEvent();
+        statusChangedEvent.setTopic("default");
+        statusChangedEvent.setTag(EventConstant.INSERT);
+        statusChangedEvent.setContent("content");
+        eventHandle.handleEvent(statusChangedEvent);
     }
 }

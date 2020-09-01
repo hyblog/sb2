@@ -40,6 +40,6 @@ public class FirstInitializer implements ApplicationContextInitializer<Configura
                 new MapPropertySource("firstInitializer", configMap);
         //在当前环境配置最后添加自定义配置
         environment.getPropertySources().addLast(mapPropertySource);
-        log.info("自定以【系统初始化器】【firstInitializer】启动 ...");
+        log.info("自定以【系统初始化器】【FirstInitializer】启动 ...");
     }
 }
