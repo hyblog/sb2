@@ -10,6 +10,7 @@ com/sb/sb2/message/EventExecutor.class
 com/sb/sb2/utils/JacksonSerializer.class
 com/sb/sb2/bean/Demo.class
 com/sb/sb2/bean/DemoExample.class
+com/sb/sb2/ioc/ann/Hello1Service.class
 com/sb/sb2/service/DemoService.class
 com/sb/sb2/event/WeatherEvent.class
 com/sb/sb2/bean/DemoExample$Criteria.class
@@ -30,6 +31,7 @@ com/sb/sb2/utils/ConvertResultModelUtils.class
 com/sb/sb2/bean/DemoExample$GeneratedCriteria.class
 com/sb/sb2/ioc/xml/Student.class
 com/sb/sb2/message/EventConstant.class
+com/sb/sb2/ioc/ann/BeanConfiguration.class
 com/sb/sb2/message/FirstExecutor.class
 com/sb/sb2/event/WeatherEventMulticaster.class
 com/sb/sb2/event/RainEvent.class

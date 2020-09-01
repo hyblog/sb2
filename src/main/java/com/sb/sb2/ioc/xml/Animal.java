@@ -1,5 +1,7 @@
 package com.sb.sb2.ioc.xml;
 
+import org.springframework.stereotype.Component;
+
 /**
  * Created by ipipman on 2020/9/1.
  *
@@ -10,6 +12,6 @@ package com.sb.sb2.ioc.xml;
  */
 public abstract class Animal {
 
-    abstract String getName();
+    public abstract String getName();
 
 }

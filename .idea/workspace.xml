@@ -20,76 +20,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc83981d-827e-49c1-8238-2ae6e641f0cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sb/sb2/ioc/xml/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sb/sb2/ioc/xml/AnimalFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sb/sb2/ioc/xml/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sb/sb2/ioc/xml/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sb/sb2/ioc/xml/HelloService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sb/sb2/ioc/xml/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ioc/demo.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/sb/sb2/Sb2XmlApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sb/sb2/ioc/ann/BeanConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sb/sb2/ioc/ann/Hello1Service.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sb2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/sb/sb2/Sb2ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sb/sb2/Sb2ApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sb/sb2/Sb2Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sb/sb2/Sb2Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sb/sb2/bean/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sb/sb2/bean/Demo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sb/sb2/bean/DemoExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sb/sb2/bean/DemoExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sb/sb2/bean/DemoExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sb/sb2/bean/DemoExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sb/sb2/bean/DemoExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sb/sb2/bean/DemoExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sb/sb2/bean/DemoExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sb/sb2/bean/DemoExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sb/sb2/bean/NewResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sb/sb2/bean/NewResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sb/sb2/bean/NewResultModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sb/sb2/bean/NewResultModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sb/sb2/bean/OldResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sb/sb2/bean/OldResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sb/sb2/bean/OldResultModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sb/sb2/bean/OldResultModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sb/sb2/controller/DemoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sb/sb2/controller/DemoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sb/sb2/event/AbstractEventMulticaster.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sb/sb2/event/AbstractEventMulticaster.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sb/sb2/event/EventMulticaster.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sb/sb2/event/EventMulticaster.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sb/sb2/event/RainEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sb/sb2/event/RainEvent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sb/sb2/event/RainListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sb/sb2/event/RainListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sb/sb2/event/SnowEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sb/sb2/event/SnowEvent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sb/sb2/event/SnowListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sb/sb2/event/SnowListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sb/sb2/event/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sb/sb2/event/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sb/sb2/event/WeatherEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sb/sb2/event/WeatherEvent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sb/sb2/event/WeatherEventMulticaster.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sb/sb2/event/WeatherEventMulticaster.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sb/sb2/event/WeatherListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sb/sb2/event/WeatherListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sb/sb2/event/WeatherRunListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sb/sb2/event/WeatherRunListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sb/sb2/initializer/FirstInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sb/sb2/initializer/FirstInitializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sb/sb2/initializer/SecondInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sb/sb2/initializer/SecondInitializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sb/sb2/initializer/ThirdInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sb/sb2/initializer/ThirdInitializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sb/sb2/listener/FirstListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sb/sb2/listener/FirstListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sb/sb2/listener/FourthListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sb/sb2/listener/FourthListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sb/sb2/listener/SecondListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sb/sb2/listener/SecondListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sb/sb2/listener/ThridListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sb/sb2/listener/ThridListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sb/sb2/mapper/DemoMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sb/sb2/mapper/DemoMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sb/sb2/message/EventConstant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sb/sb2/message/EventConstant.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sb/sb2/message/EventExecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sb/sb2/message/EventExecutor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sb/sb2/message/EventHandle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sb/sb2/message/EventHandle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sb/sb2/message/FirstExecutor$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sb/sb2/message/FirstExecutor$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sb/sb2/message/FirstExecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sb/sb2/message/FirstExecutor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sb/sb2/message/SecondExecutor$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sb/sb2/message/SecondExecutor$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sb/sb2/message/SecondExecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sb/sb2/message/SecondExecutor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sb/sb2/message/StatusChangedEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sb/sb2/message/StatusChangedEvent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sb/sb2/message/ThirdExecutor$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sb/sb2/message/ThirdExecutor$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sb/sb2/message/ThirdExecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sb/sb2/message/ThirdExecutor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sb/sb2/service/DemoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sb/sb2/service/DemoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sb/sb2/service/TestInitializerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sb/sb2/service/TestInitializerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sb/sb2/utils/ConvertResultModelUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sb/sb2/utils/ConvertResultModelUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sb/sb2/utils/FastjsonSerializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sb/sb2/utils/FastjsonSerializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sb/sb2/utils/JacksonSerializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sb/sb2/utils/JacksonSerializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sb/sb2/utils/ResultModelSpringContainer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sb/sb2/utils/ResultModelSpringContainer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sb/sb2/utils/SerializerInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sb/sb2/utils/SerializerInterface.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sb/sb2/ioc/xml/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sb/sb2/ioc/xml/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sb/sb2/ioc/xml/HelloService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sb/sb2/ioc/xml/HelloService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sb/sb2/Sb2XmlApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sb/sb2/Sb2XmlApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sb/sb2/ioc/xml/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sb/sb2/ioc/xml/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sb/sb2/ioc/xml/HelloService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sb/sb2/ioc/xml/HelloService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ioc/demo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ioc/demo.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sb2-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/sb2-0.0.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sb2-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/sb2-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.sb.sb2.Sb2ApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.sb.sb2.Sb2ApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.sb.sb2.Sb2XmlApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.sb.sb2.Sb2XmlApplicationTests.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.sb.sb2.Sb2ApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.sb.sb2.Sb2ApplicationTests.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/sb/sb2/Sb2ApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/sb/sb2/Sb2ApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.sb.sb2.Sb2XmlApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.sb.sb2.Sb2XmlApplicationTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/sb/sb2/Sb2XmlApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/sb/sb2/Sb2XmlApplicationTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +122,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Sb2XmlApplicationTests.testXmlBean">
+  <component name="RunManager" selected="JUnit.Sb2XmlApplicationTests.testBeanAnnotation">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -186,24 +134,6 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Sb2ApplicationTests.testContextRefreshedListener" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sb2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sb.sb2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.sb.sb2" />
-      <option name="MAIN_CLASS_NAME" value="com.sb.sb2.Sb2ApplicationTests" />
-      <option name="METHOD_NAME" value="testContextRefreshedListener" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="Sb2ApplicationTests.testEvent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -253,6 +183,24 @@
       <option name="PACKAGE_NAME" value="com.sb.sb2" />
       <option name="MAIN_CLASS_NAME" value="com.sb.sb2.Sb2ApplicationTests" />
       <option name="METHOD_NAME" value="testXmlBean" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sb2XmlApplicationTests.testBeanAnnotation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sb2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sb.sb2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sb.sb2" />
+      <option name="MAIN_CLASS_NAME" value="com.sb.sb2.Sb2XmlApplicationTests" />
+      <option name="METHOD_NAME" value="testBeanAnnotation" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -313,11 +261,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Sb2XmlApplicationTests.testBeanAnnotation" />
         <item itemvalue="JUnit.Sb2XmlApplicationTests.testXmlBean" />
         <item itemvalue="JUnit.Sb2ApplicationTests.testMessageExecturEvent" />
         <item itemvalue="JUnit.Sb2ApplicationTests.testXmlBean" />
         <item itemvalue="JUnit.Sb2ApplicationTests.testEvent" />
-        <item itemvalue="JUnit.Sb2ApplicationTests.testContextRefreshedListener" />
       </list>
     </recent_temporary>
   </component>
@@ -337,7 +285,7 @@
       <workItem from="1598934372876" duration="734000" />
       <workItem from="1598935119148" duration="41000" />
       <workItem from="1598935177332" duration="3907000" />
-      <workItem from="1598941759625" duration="1362000" />
+      <workItem from="1598941759625" duration="4207000" />
     </task>
     <servers />
   </component>
@@ -374,40 +322,40 @@
       <screen x="1792" y="0" width="1920" height="1080" />
     </state>
     <state x="2521" y="416" width="462" height="256" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1792.1120/1792.0.1920.1080@1792.0.1920.1080" timestamp="1598856015483" />
-    <state width="1878" height="329" key="GridCell.Tab.0.bottom" timestamp="1598942709195">
+    <state width="1878" height="365" key="GridCell.Tab.0.bottom" timestamp="1598948059271">
       <screen x="1792" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="329" key="GridCell.Tab.0.bottom/0.0.1792.1120/1792.0.1920.1080@1792.0.1920.1080" timestamp="1598942709195" />
+    <state width="1878" height="365" key="GridCell.Tab.0.bottom/0.0.1792.1120/1792.0.1920.1080@1792.0.1920.1080" timestamp="1598948059271" />
     <state width="1878" height="244" key="GridCell.Tab.0.bottom/0.23.1792.1013/1792.0.1920.1080@1792.0.1920.1080" timestamp="1598843181148" />
     <state width="1878" height="181" key="GridCell.Tab.0.bottom/0.23.1792.1013/1792.23.1920.1057@1792.23.1920.1057" timestamp="1597905833299" />
     <state width="1878" height="320" key="GridCell.Tab.0.bottom/0.23.1792.1097/1792.0.1920.1080@1792.0.1920.1080" timestamp="1598941249346" />
     <state width="1878" height="341" key="GridCell.Tab.0.bottom/0.23.1792.1097/1792.0.1920.996@1792.0.1920.996" timestamp="1597898214889" />
     <state width="1878" height="285" key="GridCell.Tab.0.bottom/0.23.1792.1097/1792.23.1920.1057@1792.23.1920.1057" timestamp="1598941743897" />
     <state width="1878" height="349" key="GridCell.Tab.0.bottom/0.23.1792.1097/1792.23.1920.973@1792.23.1920.973" timestamp="1598578103841" />
-    <state width="1878" height="329" key="GridCell.Tab.0.center" timestamp="1598942709193">
+    <state width="1878" height="365" key="GridCell.Tab.0.center" timestamp="1598948059268">
       <screen x="1792" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="329" key="GridCell.Tab.0.center/0.0.1792.1120/1792.0.1920.1080@1792.0.1920.1080" timestamp="1598942709193" />
+    <state width="1878" height="365" key="GridCell.Tab.0.center/0.0.1792.1120/1792.0.1920.1080@1792.0.1920.1080" timestamp="1598948059268" />
     <state width="1878" height="244" key="GridCell.Tab.0.center/0.23.1792.1013/1792.0.1920.1080@1792.0.1920.1080" timestamp="1598843181129" />
     <state width="1878" height="181" key="GridCell.Tab.0.center/0.23.1792.1013/1792.23.1920.1057@1792.23.1920.1057" timestamp="1597905833298" />
     <state width="1878" height="320" key="GridCell.Tab.0.center/0.23.1792.1097/1792.0.1920.1080@1792.0.1920.1080" timestamp="1598941249343" />
     <state width="1878" height="341" key="GridCell.Tab.0.center/0.23.1792.1097/1792.0.1920.996@1792.0.1920.996" timestamp="1597898214887" />
     <state width="1878" height="285" key="GridCell.Tab.0.center/0.23.1792.1097/1792.23.1920.1057@1792.23.1920.1057" timestamp="1598941743895" />
     <state width="1878" height="349" key="GridCell.Tab.0.center/0.23.1792.1097/1792.23.1920.973@1792.23.1920.973" timestamp="1598578103839" />
-    <state width="1878" height="329" key="GridCell.Tab.0.left" timestamp="1598942709191">
+    <state width="1878" height="365" key="GridCell.Tab.0.left" timestamp="1598948059266">
       <screen x="1792" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="329" key="GridCell.Tab.0.left/0.0.1792.1120/1792.0.1920.1080@1792.0.1920.1080" timestamp="1598942709191" />
+    <state width="1878" height="365" key="GridCell.Tab.0.left/0.0.1792.1120/1792.0.1920.1080@1792.0.1920.1080" timestamp="1598948059266" />
     <state width="1878" height="244" key="GridCell.Tab.0.left/0.23.1792.1013/1792.0.1920.1080@1792.0.1920.1080" timestamp="1598843181123" />
     <state width="1878" height="181" key="GridCell.Tab.0.left/0.23.1792.1013/1792.23.1920.1057@1792.23.1920.1057" timestamp="1597905833298" />
     <state width="1878" height="320" key="GridCell.Tab.0.left/0.23.1792.1097/1792.0.1920.1080@1792.0.1920.1080" timestamp="1598941249341" />
     <state width="1878" height="341" key="GridCell.Tab.0.left/0.23.1792.1097/1792.0.1920.996@1792.0.1920.996" timestamp="1597898214886" />
     <state width="1878" height="285" key="GridCell.Tab.0.left/0.23.1792.1097/1792.23.1920.1057@1792.23.1920.1057" timestamp="1598941743894" />
     <state width="1878" height="349" key="GridCell.Tab.0.left/0.23.1792.1097/1792.23.1920.973@1792.23.1920.973" timestamp="1598578103835" />
-    <state width="1878" height="329" key="GridCell.Tab.0.right" timestamp="1598942709194">
+    <state width="1878" height="365" key="GridCell.Tab.0.right" timestamp="1598948059270">
       <screen x="1792" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="329" key="GridCell.Tab.0.right/0.0.1792.1120/1792.0.1920.1080@1792.0.1920.1080" timestamp="1598942709194" />
+    <state width="1878" height="365" key="GridCell.Tab.0.right/0.0.1792.1120/1792.0.1920.1080@1792.0.1920.1080" timestamp="1598948059270" />
     <state width="1878" height="244" key="GridCell.Tab.0.right/0.23.1792.1013/1792.0.1920.1080@1792.0.1920.1080" timestamp="1598843181135" />
     <state width="1878" height="181" key="GridCell.Tab.0.right/0.23.1792.1013/1792.23.1920.1057@1792.23.1920.1057" timestamp="1597905833299" />
     <state width="1878" height="320" key="GridCell.Tab.0.right/0.23.1792.1097/1792.0.1920.1080@1792.0.1920.1080" timestamp="1598941249345" />
@@ -491,18 +439,18 @@
       <screen x="1792" y="0" width="1920" height="1080" />
     </state>
     <state x="2302" y="276" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1792.1120/1792.0.1920.1080@1792.0.1920.1080" timestamp="1597997022191" />
-    <state x="2459" y="295" width="586" height="490" key="find.popup" timestamp="1598080933581">
+    <state x="2459" y="295" width="586" height="490" key="find.popup" timestamp="1598947120561">
       <screen x="1792" y="0" width="1920" height="1080" />
     </state>
-    <state x="2459" y="295" width="586" height="490" key="find.popup/0.0.1792.1120/1792.0.1920.1080@1792.0.1920.1080" timestamp="1598080933581" />
+    <state x="2459" y="295" width="586" height="490" key="find.popup/0.0.1792.1120/1792.0.1920.1080@1792.0.1920.1080" timestamp="1598947120561" />
     <state x="2417" y="255" width="670" height="675" key="run.anything.popup" timestamp="1598939655228">
       <screen x="1792" y="0" width="1920" height="1080" />
     </state>
     <state x="2417" y="255" width="670" height="675" key="run.anything.popup/0.0.1792.1120/1792.0.1920.1080@1792.0.1920.1080" timestamp="1598939655228" />
-    <state x="2417" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1598939972781">
+    <state x="2417" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1598947133856">
       <screen x="1792" y="0" width="1920" height="1080" />
     </state>
-    <state x="2417" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1792.1120/1792.0.1920.1080@1792.0.1920.1080" timestamp="1598939972781" />
+    <state x="2417" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1792.1120/1792.0.1920.1080@1792.0.1920.1080" timestamp="1598947133856" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

@@ -1,5 +1,7 @@
 package com.sb.sb2.ioc.xml;
 
+import org.springframework.stereotype.Component;
+
 /**
  * Created by ipipman on 2020/9/1.
  *
@@ -8,6 +10,7 @@ package com.sb.sb2.ioc.xml;
  * @Description: (用一句话描述该文件做什么)
  * @date 2020/9/1 11:53 上午
  */
+@Component
 public class HelloService {
 
     private Student student;

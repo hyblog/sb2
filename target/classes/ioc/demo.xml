@@ -3,6 +3,14 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+    <!--
+        XML配置Bean一共有四中方法
+        方式一：通过property创建一个无参Bean
+        方式二：通过construct-arg创建一个有参的Bean
+        方式三：通过class创建一个静态Bean
+        方式四：通过factory-bean创建一个非静态Bean
+       -->
+
     <!-- 自定义IOC容器Bean -->
     <bean id="student" class="com.sb.sb2.ioc.xml.Student">
         <!--        <property name="name" value="zhangsan"/>-->
