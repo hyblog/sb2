@@ -20,17 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc83981d-827e-49c1-8238-2ae6e641f0cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sb/sb2/ioc/ann/MyCat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sb/sb2/ioc/ann/MyBeanRegister.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sb/sb2/ioc/xml/Monkey.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sb/sb2/ioc/ann/BeanConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sb/sb2/ioc/ann/BeanConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sb/sb2/ioc/ann/Hello1Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sb/sb2/ioc/ann/Hello1Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/sb2-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/sb2-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/sb2-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/sb2-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.sb.sb2.Sb2ApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.sb.sb2.Sb2ApplicationTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.sb.sb2.Sb2XmlApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.sb.sb2.Sb2XmlApplicationTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.sb.sb2.Sb2ApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.sb.sb2.Sb2ApplicationTests.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.sb.sb2.Sb2XmlApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.sb.sb2.Sb2XmlApplicationTests.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,6 +101,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sb.sb2.ioc.xml" />
       <recent name="com.sb.sb2.message" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -278,7 +272,7 @@
       <workItem from="1598934372876" duration="734000" />
       <workItem from="1598935119148" duration="41000" />
       <workItem from="1598935177332" duration="3907000" />
-      <workItem from="1598941759625" duration="4763000" />
+      <workItem from="1598941759625" duration="5403000" />
     </task>
     <servers />
   </component>

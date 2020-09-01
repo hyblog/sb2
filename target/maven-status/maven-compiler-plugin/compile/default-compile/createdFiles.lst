@@ -43,6 +43,7 @@ com/sb/sb2/event/WeatherRunListener.class
 com/sb/sb2/ioc/xml/AnimalFactory.class
 com/sb/sb2/message/SecondExecutor.class
 com/sb/sb2/bean/NewResult.class
+com/sb/sb2/ioc/ann/MyBeanRegister.class
 com/sb/sb2/listener/FirstListener.class
 com/sb/sb2/event/WeatherListener.class
 com/sb/sb2/message/EventHandle.class
@@ -54,3 +55,4 @@ com/sb/sb2/utils/SerializerInterface.class
 com/sb/sb2/ioc/xml/Cat.class
 com/sb/sb2/message/StatusChangedEvent.class
 com/sb/sb2/initializer/ThirdInitializer.class
+com/sb/sb2/ioc/xml/Monkey.class

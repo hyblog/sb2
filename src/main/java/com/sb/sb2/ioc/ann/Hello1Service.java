@@ -20,7 +20,8 @@ public class Hello1Service {
     private Student student;
 
     @Autowired
-    @Qualifier(value = "myCat") //多个相同的Bean名称用Qualifier注定
+//    @Qualifier(value = "myCat") //多个相同的Bean名称用Qualifier注定
+    @Qualifier(value = "myMonkey") //多个相同的Bean名称用Qualifier注定
     private Animal animal;
 
     public Student getStudent() {
