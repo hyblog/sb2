@@ -1,6 +1,8 @@
 /Users/huangyan110110114/sb2/src/main/java/com/sb/sb2/event/RainEvent.java
+/Users/huangyan110110114/sb2/src/main/java/com/sb/sb2/ioc/xml/Animal.java
 /Users/huangyan110110114/sb2/src/main/java/com/sb/sb2/bean/NewResult.java
 /Users/huangyan110110114/sb2/src/main/java/com/sb/sb2/event/SnowListener.java
+/Users/huangyan110110114/sb2/src/main/java/com/sb/sb2/ioc/xml/Cat.java
 /Users/huangyan110110114/sb2/src/main/java/com/sb/sb2/mapper/DemoMapper.java
 /Users/huangyan110110114/sb2/src/main/java/com/sb/sb2/initializer/SecondInitializer.java
 /Users/huangyan110110114/sb2/src/main/java/com/sb/sb2/listener/ThridListener.java
@@ -14,7 +16,9 @@
 /Users/huangyan110110114/sb2/src/main/java/com/sb/sb2/service/TestInitializerService.java
 /Users/huangyan110110114/sb2/src/main/java/com/sb/sb2/bean/NewResultModel.java
 /Users/huangyan110110114/sb2/src/main/java/com/sb/sb2/Sb2Application.java
+/Users/huangyan110110114/sb2/src/main/java/com/sb/sb2/ioc/xml/HelloService.java
 /Users/huangyan110110114/sb2/src/main/java/com/sb/sb2/event/WeatherEvent.java
+/Users/huangyan110110114/sb2/src/main/java/com/sb/sb2/ioc/xml/Student.java
 /Users/huangyan110110114/sb2/src/main/java/com/sb/sb2/message/ThirdExecutor.java
 /Users/huangyan110110114/sb2/src/main/java/com/sb/sb2/bean/DemoExample.java
 /Users/huangyan110110114/sb2/src/main/java/com/sb/sb2/service/DemoService.java
@@ -35,7 +39,9 @@
 /Users/huangyan110110114/sb2/src/main/java/com/sb/sb2/bean/OldResultModel.java
 /Users/huangyan110110114/sb2/src/main/java/com/sb/sb2/utils/ResultModelSpringContainer.java
 /Users/huangyan110110114/sb2/src/main/java/com/sb/sb2/event/RainListener.java
+/Users/huangyan110110114/sb2/src/main/java/com/sb/sb2/ioc/xml/AnimalFactory.java
 /Users/huangyan110110114/sb2/src/main/java/com/sb/sb2/message/StatusChangedEvent.java
 /Users/huangyan110110114/sb2/src/main/java/com/sb/sb2/message/FirstExecutor.java
 /Users/huangyan110110114/sb2/src/main/java/com/sb/sb2/utils/FastjsonSerializer.java
 /Users/huangyan110110114/sb2/src/main/java/com/sb/sb2/event/Test.java
+/Users/huangyan110110114/sb2/src/main/java/com/sb/sb2/ioc/xml/Dog.java
