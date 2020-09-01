@@ -4,6 +4,7 @@ import com.sb.sb2.bean.NewResultModel;
 import com.sb.sb2.bean.OldResult;
 import com.sb.sb2.bean.OldResultModel;
 import com.sb.sb2.event.WeatherRunListener;
+import com.sb.sb2.ioc.ann.MyBeanImport;
 import com.sb.sb2.ioc.xml.HelloService;
 import com.sb.sb2.message.EventConstant;
 import com.sb.sb2.message.EventHandle;
@@ -13,6 +14,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.context.annotation.Import;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.TestPropertySource;
 import org.springframework.test.context.junit4.SpringRunner;
@@ -27,6 +29,7 @@ import org.springframework.test.context.junit4.SpringRunner;
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest
+@Import(MyBeanImport.class)
 public class Sb2ApplicationTests {
 
     @Autowired

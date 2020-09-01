@@ -14,14 +14,14 @@ import org.springframework.stereotype.Component;
  *
  * @version V1.0
  * @Package com.sb.sb2.ioc.ann
- * @Description: (用一句话描述该文件做什么)
+ * @Description: (通过继承BeanDefinitionRegistryPostProcessor类，实现postProcessBeanDefinitionRegistry方法，实现自定义Bean注入)
  * @date 2020/9/1 4:30 下午
  */
 @Component
 public class MyBeanRegister implements BeanDefinitionRegistryPostProcessor {
 
     /**
-     * 实现Bean注册
+     * 通过继承BeanDefinitionRegistryPostProcessor类，实现postProcessBeanDefinitionRegistry方法，实现自定义Bean注入
      *
      * @param registry
      * @throws BeansException

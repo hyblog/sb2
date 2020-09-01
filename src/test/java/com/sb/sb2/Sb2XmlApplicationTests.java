@@ -1,11 +1,13 @@
 package com.sb.sb2;
 
 import com.sb.sb2.ioc.ann.Hello1Service;
+import com.sb.sb2.ioc.ann.MyBeanImport;
 import com.sb.sb2.ioc.xml.HelloService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.context.annotation.Import;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringRunner;
 
@@ -20,6 +22,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 //@ContextConfiguration(locations = "classpath:ioc/demo.xml") //指定SpringBoot上下文加载自定义XML Bean
+@Import(MyBeanImport.class)
 public class Sb2XmlApplicationTests {
 
     @Autowired
@@ -35,7 +38,6 @@ public class Sb2XmlApplicationTests {
     public void testXmlBean() {
         // System.out.println(helloService.hello());
     }
-
 
     /**
      * 测试@Bean注解

@@ -35,6 +35,7 @@ com/sb/sb2/message/EventConstant.class
 com/sb/sb2/ioc/ann/BeanConfiguration.class
 com/sb/sb2/message/FirstExecutor.class
 com/sb/sb2/event/WeatherEventMulticaster.class
+com/sb/sb2/ioc/ann/MyBeanImport.class
 com/sb/sb2/event/RainEvent.class
 com/sb/sb2/listener/FourthListener.class
 com/sb/sb2/message/ThirdExecutor.class
@@ -56,3 +57,4 @@ com/sb/sb2/ioc/xml/Cat.class
 com/sb/sb2/message/StatusChangedEvent.class
 com/sb/sb2/initializer/ThirdInitializer.class
 com/sb/sb2/ioc/xml/Monkey.class
+com/sb/sb2/ioc/xml/Bird.class
