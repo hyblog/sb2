@@ -2,6 +2,7 @@ package com.sb.sb2;
 
 import com.sb.sb2.ioc.ann.Hello1Service;
 import com.sb.sb2.ioc.ann.MyBeanImport;
+import com.sb.sb2.ioc.ann.Teacher;
 import com.sb.sb2.ioc.xml.HelloService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -31,6 +32,10 @@ public class Sb2XmlApplicationTests {
     @Autowired
     private Hello1Service hello1Service;
 
+
+    @Autowired
+    private Teacher teacher;
+
     /**
      * 测试自定义无参XML的Bean
      */
@@ -45,5 +50,14 @@ public class Sb2XmlApplicationTests {
     @Test
     public void testBeanAnnotation() {
         System.out.println(hello1Service.hello());
+    }
+
+
+    /**
+     * 测试Bean后处理器
+     */
+    @Test
+    public void testBeanPostProcessor() {
+        System.out.println(teacher.getName());
     }
 }

@@ -32,14 +32,18 @@ public class FirstInitializer implements ApplicationContextInitializer<Configura
     public void initialize(ConfigurableApplicationContext applicationContext) {
         //获取环境配置
         ConfigurableEnvironment environment = applicationContext.getEnvironment();
-        //自定义配置
-        Map<String, Object> configMap = new HashMap<>();
-        configMap.put("key1", "value1");
-        //创建配置
-        MapPropertySource mapPropertySource =
-                new MapPropertySource("firstInitializer", configMap);
-        //在当前环境配置最后添加自定义配置
-        environment.getPropertySources().addLast(mapPropertySource);
-        log.info("自定以【系统初始化器】【FirstInitializer】启动 ...");
+
+        //设置必备属性
+        environment.setRequiredProperties("first-initializer-required-key-attribute");
+
+//        //自定义配置
+//        Map<String, Object> configMap = new HashMap<>();
+//        configMap.put("key1", "value1");
+//        //创建配置
+//        MapPropertySource mapPropertySource =
+//                new MapPropertySource("firstInitializer", configMap);
+//        //在当前环境配置最后添加自定义配置
+//        environment.getPropertySources().addLast(mapPropertySource);
+//        log.info("自定以【系统初始化器】【FirstInitializer】启动 ...");
     }
 }

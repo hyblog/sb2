@@ -20,6 +20,7 @@ public class Sb2Application {
 
         //创建SB应用
 //        SpringApplication springApplication = new SpringApplication(Sb2Application.class);
+
 //        //添加系统化初始器
 //        springApplication.addInitializers(new SecondInitializer());
 //        //添加事件监听器
