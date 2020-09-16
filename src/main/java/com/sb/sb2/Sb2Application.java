@@ -10,7 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import javax.swing.*;
 
 @SpringBootApplication
-@MapperScan(value = "com.sb.sb2.mapper")
+//@MapperScan(value = "com.sb.sb2.mapper")
 @Slf4j
 public class Sb2Application {
 

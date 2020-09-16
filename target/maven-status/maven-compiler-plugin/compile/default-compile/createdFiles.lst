@@ -19,6 +19,7 @@ com/sb/sb2/ioc/ann/MyCat.class
 com/sb/sb2/service/TestInitializerService.class
 com/sb/sb2/bean/DemoExample$Criterion.class
 com/sb/sb2/listener/SecondListener.class
+com/sb/sb2/ioc/ann/Worker.class
 com/sb/sb2/utils/ResultModelSpringContainer.class
 com/sb/sb2/bean/NewResultModel.class
 com/sb/sb2/message/FirstExecutor$1.class
@@ -49,6 +50,7 @@ com/sb/sb2/listener/FirstListener.class
 com/sb/sb2/event/WeatherListener.class
 com/sb/sb2/ioc/ann/MyBeanFactoryPostProcessor.class
 com/sb/sb2/message/EventHandle.class
+com/sb/sb2/ioc/ann/MyBeanPostProcessor.class
 com/sb/sb2/mapper/DemoMapper.class
 com/sb/sb2/ioc/xml/HelloService.class
 com/sb/sb2/event/EventMulticaster.class

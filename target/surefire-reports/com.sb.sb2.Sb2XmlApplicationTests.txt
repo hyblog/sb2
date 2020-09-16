@@ -1,4 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: com.sb.sb2.Sb2XmlApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.75 s - in com.sb.sb2.Sb2XmlApplicationTests
+Tests run: 3, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 2.669 s <<< FAILURE! - in com.sb.sb2.Sb2XmlApplicationTests
+testBeanPostProcessor(com.sb.sb2.Sb2XmlApplicationTests)  Time elapsed: 0.192 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.sb.sb2.Sb2XmlApplicationTests.testBeanPostProcessor(Sb2XmlApplicationTests.java:61)
+
+testBeanAnnotation(com.sb.sb2.Sb2XmlApplicationTests)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.sb.sb2.Sb2XmlApplicationTests.testBeanAnnotation(Sb2XmlApplicationTests.java:52)
+

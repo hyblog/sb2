@@ -2,8 +2,10 @@
 /Users/huangyan110110114/sb2/src/main/java/com/sb/sb2/ioc/xml/Animal.java
 /Users/huangyan110110114/sb2/src/main/java/com/sb/sb2/ioc/xml/Cat.java
 /Users/huangyan110110114/sb2/src/main/java/com/sb/sb2/initializer/SecondInitializer.java
+/Users/huangyan110110114/sb2/src/main/java/com/sb/sb2/ioc/ann/MyBeanPostProcessor.java
 /Users/huangyan110110114/sb2/src/main/java/com/sb/sb2/listener/FirstListener.java
 /Users/huangyan110110114/sb2/src/main/java/com/sb/sb2/message/SecondExecutor.java
+/Users/huangyan110110114/sb2/src/main/java/com/sb/sb2/ioc/ann/Worker.java
 /Users/huangyan110110114/sb2/src/main/java/com/sb/sb2/message/EventHandle.java
 /Users/huangyan110110114/sb2/src/main/java/com/sb/sb2/controller/DemoController.java
 /Users/huangyan110110114/sb2/src/main/java/com/sb/sb2/service/TestInitializerService.java

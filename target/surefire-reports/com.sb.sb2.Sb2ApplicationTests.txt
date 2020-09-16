@@ -1,4 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: com.sb.sb2.Sb2ApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.068 s - in com.sb.sb2.Sb2ApplicationTests
+Tests run: 4, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.064 s <<< FAILURE! - in com.sb.sb2.Sb2ApplicationTests
+testEvent(com.sb.sb2.Sb2ApplicationTests)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.sb.sb2.Sb2ApplicationTests.testEvent(Sb2ApplicationTests.java:51)
+
+testMessageExecturEvent(com.sb.sb2.Sb2ApplicationTests)  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.sb.sb2.Sb2ApplicationTests.testMessageExecturEvent(Sb2ApplicationTests.java:80)
+
