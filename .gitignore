@@ -19,6 +19,7 @@ build/
 ### VS Code ###
 .vscode/
 /logs/
+/logs//
 
 ### project .gitignore ###
 # jd es 测试文件
